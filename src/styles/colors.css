@@ -1,0 +1,169 @@
+/* ASSUMES variables.css */
+
+
+/* primary */
+
+.text-primary {
+  color: light-dark(var(--text-primary-light, #000), var(--text-primary-dark, #fff));
+}
+.bg-primary {
+  background-color: light-dark(var(--text-primary-light, #000), var(--text-primary-dark, #fff));
+}
+.bg-primary--minimal {
+  background-color: light-dark( 
+    rgb(from var(--text-primary-light, #000) r g b / var(--bg-opacity-minimal)),
+    rgb(from var(--text-primary-dark, #FFF) r g b / var(--bg-opacity-minimal))
+  ); 
+}
+.bg-primary--quarter {
+  background-color: light-dark( 
+    rgb(from var(--text-primary-light, #000) r g b / var(--bg-opacity-quarter)),
+    rgb(from var(--text-primary-dark, #FFF) r g b / var(--bg-opacity-quarter))
+  ); 
+}
+.bg-primary--half {
+  background-color: light-dark( 
+    rgb(from var(--text-primary-light, #000) r g b / var(--bg-opacity-half)),
+    rgb(from var(--text-primary-dark, #FFF) r g b / var(--bg-opacity-half))
+  ); 
+}
+.bg-primary--mostly {
+  background-color: light-dark( 
+    rgb(from var(--text-primary-light, #000) r g b / var(--bg-opacity-mostly)),
+    rgb(from var(--text-primary-dark, #FFF) r g b / var(--bg-opacity-mostly))
+  ); 
+}
+
+/* secondary */
+
+.text-secondary {
+  color: light-dark(var(--text-secondary-light, #000), var(--text-secondary-dark, #fff));
+}
+.bg-secondary {
+  background-color: light-dark(var(--text-secondary-light, #000), var(--text-secondary-dark, #fff));
+}
+.bg-secondary--minimal {
+  background-color: light-dark( 
+    rgb(from var(--text-secondary-light, #000) r g b / var(--bg-opacity-minimal)),
+    rgb(from var(--text-secondary-dark, #FFF) r g b / var(--bg-opacity-minimal))
+  ); 
+}
+.bg-secondary--quarter {
+  background-color: light-dark( 
+    rgb(from var(--text-secondary-light, #000) r g b / var(--bg-opacity-quarter)),
+    rgb(from var(--text-secondary-dark, #FFF) r g b / var(--bg-opacity-quarter))
+  ); 
+}
+.bg-secondary--half {
+  background-color: light-dark( 
+    rgb(from var(--text-secondary-light, #000) r g b / var(--bg-opacity-half)),
+    rgb(from var(--text-secondary-dark, #FFF) r g b / var(--bg-opacity-half))
+  ); 
+}
+.bg-secondary--mostly {
+  background-color: light-dark( 
+    rgb(from var(--text-secondary-light, #000) r g b / var(--bg-opacity-mostly)),
+    rgb(from var(--text-secondary-dark, #FFF) r g b / var(--bg-opacity-mostly))
+  ); 
+}
+
+
+/* error */
+
+.text-error {
+  color: light-dark(var(--text-error-light, #000), var(--text-error-dark, #fff));
+}
+.bg-error {
+  background-color: light-dark(var(--text-error-light, #000), var(--text-error-dark, #fff));
+}
+.bg-error--minimal {
+  background-color: light-dark( 
+    rgb(from var(--text-error-light, #000) r g b / var(--bg-opacity-minimal)),
+    rgb(from var(--text-error-dark, #FFF) r g b / var(--bg-opacity-minimal))
+  ); 
+}
+.bg-error--quarter {
+  background-color: light-dark( 
+    rgb(from var(--text-error-light, #000) r g b / var(--bg-opacity-quarter)),
+    rgb(from var(--text-error-dark, #FFF) r g b / var(--bg-opacity-quarter))
+  ); 
+}
+.bg-error--half {
+  background-color: light-dark( 
+    rgb(from var(--text-error-light, #000) r g b / var(--bg-opacity-half)),
+    rgb(from var(--text-error-dark, #FFF) r g b / var(--bg-opacity-half))
+  ); 
+}
+.bg-error--mostly {
+  background-color: light-dark( 
+    rgb(from var(--text-error-light, #000) r g b / var(--bg-opacity-mostly)),
+    rgb(from var(--text-error-dark, #FFF) r g b / var(--bg-opacity-mostly))
+  ); 
+}
+
+/* background */
+
+.text-background {
+  color: light-dark(var(--bg-background-light, #000), var(--bg-background-dark, #fff));
+}
+.bg-background {
+  background-color: light-dark(var(--bg-background-light, #000), var(--bg-background-dark, #fff));
+}
+.bg-background--minimal {
+  background-color: light-dark( 
+    rgb(from var(--bg-background-light, #000) r g b / var(--bg-opacity-minimal)),
+    rgb(from var(--bg-background-dark, #FFF) r g b / var(--bg-opacity-minimal))
+  ); 
+}
+.bg-background--quarter {
+  background-color: light-dark( 
+    rgb(from var(--bg-background-light, #000) r g b / var(--bg-opacity-quarter)),
+    rgb(from var(--bg-background-dark, #FFF) r g b / var(--bg-opacity-quarter))
+  ); 
+}
+.bg-background--half {
+  background-color: light-dark( 
+    rgb(from var(--bg-background-light, #000) r g b / var(--bg-opacity-half)),
+    rgb(from var(--bg-background-dark, #FFF) r g b / var(--bg-opacity-half))
+  ); 
+}
+.bg-background--mostly {
+  background-color: light-dark( 
+    rgb(from var(--bg-background-light, #000) r g b / var(--bg-opacity-mostly)),
+    rgb(from var(--bg-background-dark, #FFF) r g b / var(--bg-opacity-mostly))
+  ); 
+}
+
+/* surface */
+
+.text-surface {
+  color: light-dark(var(--bg-surface-light, #000), var(--bg-surface-dark, #fff));
+}
+.bg-surface {
+  background-color: light-dark(var(--bg-surface-light, #000), var(--bg-surface-dark, #fff));
+}
+.bg-surface--minimal {
+  background-color: light-dark( 
+    rgb(from var(--bg-surface-light, #000) r g b / var(--bg-opacity-minimal)),
+    rgb(from var(--bg-surface-dark, #FFF) r g b / var(--bg-opacity-minimal))
+  ); 
+}
+.bg-surface--quarter {
+  background-color: light-dark( 
+    rgb(from var(--bg-surface-light, #000) r g b / var(--bg-opacity-quarter)),
+    rgb(from var(--bg-surface-dark, #FFF) r g b / var(--bg-opacity-quarter))
+  ); 
+}
+.bg-surface--half {
+  background-color: light-dark( 
+    rgb(from var(--bg-surface-light, #000) r g b / var(--bg-opacity-half)),
+    rgb(from var(--bg-surface-dark, #FFF) r g b / var(--bg-opacity-half))
+  ); 
+}
+.bg-surface--mostly {
+  background-color: light-dark( 
+    rgb(from var(--bg-surface-light, #000) r g b / var(--bg-opacity-mostly)),
+    rgb(from var(--bg-surface-dark, #FFF) r g b / var(--bg-opacity-mostly))
+  ); 
+}
+

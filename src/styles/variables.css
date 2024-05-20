@@ -1,0 +1,33 @@
+:root {
+  /* TEXT */
+  --text-color-dark: rgba(255, 255, 255, 0.8);
+  --text-color-light: rgba(0, 0, 0, 0.8);
+
+  --text-primary-dark: #A1E7F7;
+  --text-primary-light: #0B6E84;
+
+  --text-secondary-dark: #E17A51;
+  --text-secondary-light: #C04E21;
+
+  --text-error-dark: #E34F6C;
+  --text-error-light: #D42145;
+  
+  --accent-color-dark: var(--text-primary-dark, #989eff);
+  --accent-color-light: var(--text-primary-light, #7c49b6);  
+  
+  --border-color-dark: rgba(255, 255, 255, 0.5);
+  --border-color-light: rgba(0, 0, 0, 0.5);
+  
+  /* BACKGROUND */
+  --bg-color-dark: #25102D;
+  --bg-color-light: #F7F0FA;
+  --bg-surface-dark: #18143D;
+  --bg-surface-light: #E2E0F5;
+
+  /* -- calculated backgrounds -- */
+  --bg-opacity-minimal: 10%;
+  --bg-opacity-quarter: 25%;
+  --bg-opacity-half: 50%;
+  --bg-opacity-mostly: 75%;
+
+}
